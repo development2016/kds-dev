@@ -35,6 +35,8 @@ $this->title = 'Profil';
                             <div class="widget-thumb-wrap">
                                  <div class="portlet-body flip-scroll">
                                     <?php  echo $this->render('_search', ['model' => $searchModel]); ?>
+
+
                                     <?php \yii\widgets\Pjax::begin(); ?>
                                     <?= GridView::widget([
                                         'dataProvider' => $dataProvider,

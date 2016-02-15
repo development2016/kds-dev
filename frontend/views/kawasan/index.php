@@ -35,13 +35,13 @@ $this->title = 'Kawasan Perlaksanaan';
                             <div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 ">
                                 <h4 class="widget-thumb-heading"><?php echo $value['state'] ?></h4>
                                 <div class="widget-thumb-wrap">
-                                    <a href="" style="text-decoration:none;">
-                                        <img src="<?php echo Yii::$app->request->baseUrl; ?>/images/negeri/<?php echo $value['flag'] ?>"  class="widget-thumb-icon">
-                                        <div class="widget-thumb-body">
+                                    <?= Html::a('<img src="'.Yii::$app->request->baseUrl.'/images/negeri/'.$value['flag']. '" class="widget-thumb-icon"><div class="widget-thumb-body">
                                             <span class="widget-thumb-subtitle">Jumlah</span>
-                                            <span class="widget-thumb-body-stat" data-counter="counterup" data-value="<?php echo $value['total_by_state'] ?>">0</span>
-                                        </div>
-                                    </a>
+                                            <span class="widget-thumb-body-stat" data-counter="counterup" data-value="'.$value['total_by_state'].'">0</span>
+                                        </div>', ['kawasan/state','id'=>$value['state_id']]) ?>
+
+
+
                                 </div>
                             </div>
                             <!-- END WIDGET THUMB -->

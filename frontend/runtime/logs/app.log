@@ -357,3 +357,482 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2016-02-15 11:27:41 [::1][1][440b6f30f067c17b7b4a68d21bb2297b][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ''"  class="widget-thumb-icon">' (T_CONSTANT_ENCAPSED_STRING)' in /Applications/MAMP/htdocs/kds-dev/frontend/views/kawasan/index.php:38
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-15 11:27:41 [::1][1][440b6f30f067c17b7b4a68d21bb2297b][info][application] $_GET = [
+    'r' => 'kawasan/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a4b4cd956b697b75aca681c1e4fc0239dd805af3756198e13143886df621ded4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lJxbJnnzPUrZBStaf6lP3Q7eGsSu7Qar\";}'
+    'PHPSESSID' => '440b6f30f067c17b7b4a68d21bb2297b'
+    '_identity' => '8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"wq6FlOY1ZsioNc2FGU01PubMORGIuf5X\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/kds-dev/frontend/web/index.php?r=kawasan%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ms;q=0.6,id;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a4b4cd956b697b75aca681c1e4fc0239dd805af3756198e13143886df621ded4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lJxbJnnzPUrZBStaf6lP3Q7eGsSu7Qar%22%3B%7D; PHPSESSID=440b6f30f067c17b7b4a68d21bb2297b; _identity=8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22wq6FlOY1ZsioNc2FGU01PubMORGIuf5X%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/kds-dev/frontend/web/index.php'
+    'REMOTE_PORT' => '61789'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=kawasan%2Findex'
+    'REQUEST_URI' => '/kds-dev/frontend/web/index.php?r=kawasan%2Findex'
+    'SCRIPT_NAME' => '/kds-dev/frontend/web/index.php'
+    'PHP_SELF' => '/kds-dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455506861.6
+    'REQUEST_TIME' => 1455506861
+    'argv' => [
+        0 => 'r=kawasan%2Findex'
+    ]
+    'argc' => 1
+]
+2016-02-15 11:29:03 [::1][1][440b6f30f067c17b7b4a68d21bb2297b][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ';'' in /Applications/MAMP/htdocs/kds-dev/frontend/views/kawasan/index.php:38
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-15 11:29:03 [::1][1][440b6f30f067c17b7b4a68d21bb2297b][info][application] $_GET = [
+    'r' => 'kawasan/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a4b4cd956b697b75aca681c1e4fc0239dd805af3756198e13143886df621ded4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lJxbJnnzPUrZBStaf6lP3Q7eGsSu7Qar\";}'
+    'PHPSESSID' => '440b6f30f067c17b7b4a68d21bb2297b'
+    '_identity' => '8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"wq6FlOY1ZsioNc2FGU01PubMORGIuf5X\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/kds-dev/frontend/web/index.php?r=kawasan%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ms;q=0.6,id;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a4b4cd956b697b75aca681c1e4fc0239dd805af3756198e13143886df621ded4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lJxbJnnzPUrZBStaf6lP3Q7eGsSu7Qar%22%3B%7D; PHPSESSID=440b6f30f067c17b7b4a68d21bb2297b; _identity=8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22wq6FlOY1ZsioNc2FGU01PubMORGIuf5X%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/kds-dev/frontend/web/index.php'
+    'REMOTE_PORT' => '62751'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=kawasan%2Findex'
+    'REQUEST_URI' => '/kds-dev/frontend/web/index.php?r=kawasan%2Findex'
+    'SCRIPT_NAME' => '/kds-dev/frontend/web/index.php'
+    'PHP_SELF' => '/kds-dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455506943.57
+    'REQUEST_TIME' => 1455506943
+    'argv' => [
+        0 => 'r=kawasan%2Findex'
+    ]
+    'argc' => 1
+]
+2016-02-15 11:29:10 [::1][1][440b6f30f067c17b7b4a68d21bb2297b][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ''">'' (T_CONSTANT_ENCAPSED_STRING)' in /Applications/MAMP/htdocs/kds-dev/frontend/views/kawasan/index.php:38
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-15 11:29:10 [::1][1][440b6f30f067c17b7b4a68d21bb2297b][info][application] $_GET = [
+    'r' => 'kawasan/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a4b4cd956b697b75aca681c1e4fc0239dd805af3756198e13143886df621ded4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lJxbJnnzPUrZBStaf6lP3Q7eGsSu7Qar\";}'
+    'PHPSESSID' => '440b6f30f067c17b7b4a68d21bb2297b'
+    '_identity' => '8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"wq6FlOY1ZsioNc2FGU01PubMORGIuf5X\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/kds-dev/frontend/web/index.php?r=kawasan%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ms;q=0.6,id;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a4b4cd956b697b75aca681c1e4fc0239dd805af3756198e13143886df621ded4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lJxbJnnzPUrZBStaf6lP3Q7eGsSu7Qar%22%3B%7D; PHPSESSID=440b6f30f067c17b7b4a68d21bb2297b; _identity=8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22wq6FlOY1ZsioNc2FGU01PubMORGIuf5X%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/kds-dev/frontend/web/index.php'
+    'REMOTE_PORT' => '62825'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=kawasan%2Findex'
+    'REQUEST_URI' => '/kds-dev/frontend/web/index.php?r=kawasan%2Findex'
+    'SCRIPT_NAME' => '/kds-dev/frontend/web/index.php'
+    'PHP_SELF' => '/kds-dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455506950.15
+    'REQUEST_TIME' => 1455506950
+    'argv' => [
+        0 => 'r=kawasan%2Findex'
+    ]
+    'argc' => 1
+]
+2016-02-15 11:47:53 [::1][1][440b6f30f067c17b7b4a68d21bb2297b][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: id' in /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/web/Controller.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('state', Array)
+#3 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('kawasan/state', Array)
+#4 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /Applications/MAMP/htdocs/kds-dev/frontend/web/index.php(18): yii\base\Application->run()
+#6 {main}
+2016-02-15 11:47:53 [::1][1][440b6f30f067c17b7b4a68d21bb2297b][info][application] $_GET = [
+    'r' => 'kawasan/state'
+    'state_id' => '12'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a4b4cd956b697b75aca681c1e4fc0239dd805af3756198e13143886df621ded4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lJxbJnnzPUrZBStaf6lP3Q7eGsSu7Qar\";}'
+    'PHPSESSID' => '440b6f30f067c17b7b4a68d21bb2297b'
+    '_identity' => '8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"wq6FlOY1ZsioNc2FGU01PubMORGIuf5X\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/kds-dev/frontend/web/index.php?r=kawasan%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ms;q=0.6,id;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a4b4cd956b697b75aca681c1e4fc0239dd805af3756198e13143886df621ded4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lJxbJnnzPUrZBStaf6lP3Q7eGsSu7Qar%22%3B%7D; PHPSESSID=440b6f30f067c17b7b4a68d21bb2297b; _identity=8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22wq6FlOY1ZsioNc2FGU01PubMORGIuf5X%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/kds-dev/frontend/web/index.php'
+    'REMOTE_PORT' => '59794'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=kawasan%2Fstate&state_id=12'
+    'REQUEST_URI' => '/kds-dev/frontend/web/index.php?r=kawasan%2Fstate&state_id=12'
+    'SCRIPT_NAME' => '/kds-dev/frontend/web/index.php'
+    'PHP_SELF' => '/kds-dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455508073.87
+    'REQUEST_TIME' => 1455508073
+    'argv' => [
+        0 => 'r=kawasan%2Fstate&state_id=12'
+    ]
+    'argc' => 1
+]
+2016-02-15 11:48:49 [::1][1][440b6f30f067c17b7b4a68d21bb2297b][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'LookupDistrict' not found' in /Applications/MAMP/htdocs/kds-dev/frontend/views/kawasan/state.php:2
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-15 11:48:49 [::1][1][440b6f30f067c17b7b4a68d21bb2297b][info][application] $_GET = [
+    'r' => 'kawasan/state'
+    'id' => '12'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a4b4cd956b697b75aca681c1e4fc0239dd805af3756198e13143886df621ded4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lJxbJnnzPUrZBStaf6lP3Q7eGsSu7Qar\";}'
+    'PHPSESSID' => '440b6f30f067c17b7b4a68d21bb2297b'
+    '_identity' => '8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"wq6FlOY1ZsioNc2FGU01PubMORGIuf5X\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/kds-dev/frontend/web/index.php?r=kawasan%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ms;q=0.6,id;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a4b4cd956b697b75aca681c1e4fc0239dd805af3756198e13143886df621ded4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lJxbJnnzPUrZBStaf6lP3Q7eGsSu7Qar%22%3B%7D; PHPSESSID=440b6f30f067c17b7b4a68d21bb2297b; _identity=8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22wq6FlOY1ZsioNc2FGU01PubMORGIuf5X%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/kds-dev/frontend/web/index.php'
+    'REMOTE_PORT' => '60484'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=kawasan%2Fstate&id=12'
+    'REQUEST_URI' => '/kds-dev/frontend/web/index.php?r=kawasan%2Fstate&id=12'
+    'SCRIPT_NAME' => '/kds-dev/frontend/web/index.php'
+    'PHP_SELF' => '/kds-dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455508129.62
+    'REQUEST_TIME' => 1455508129
+    'argv' => [
+        0 => 'r=kawasan%2Fstate&id=12'
+    ]
+    'argc' => 1
+]
+2016-02-15 16:18:49 [::1][1][440b6f30f067c17b7b4a68d21bb2297b][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Object of class common\models\CountIsu could not be converted to string' in /Applications/MAMP/htdocs/kds-dev/frontend/views/kawasan/state.php:95
+Stack trace:
+#0 /Applications/MAMP/htdocs/kds-dev/frontend/views/kawasan/state.php(95): yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/Applications/M...', 95, Array)
+#1 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/View.php(325): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Applications/M...', Array, Object(frontend\controllers\KawasanController))
+#4 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/Controller.php(377): yii\base\View->render('state', Array, Object(frontend\controllers\KawasanController))
+#5 /Applications/MAMP/htdocs/kds-dev/frontend/controllers/KawasanController.php(59): yii\base\Controller->render('state', Array)
+#6 [internal function]: frontend\controllers\KawasanController->actionState('12')
+#7 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('state', Array)
+#10 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('kawasan/state', Array)
+#11 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /Applications/MAMP/htdocs/kds-dev/frontend/web/index.php(18): yii\base\Application->run()
+#13 {main}
+2016-02-15 16:18:48 [::1][1][440b6f30f067c17b7b4a68d21bb2297b][info][application] $_GET = [
+    'r' => 'kawasan/state'
+    'id' => '12'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a4b4cd956b697b75aca681c1e4fc0239dd805af3756198e13143886df621ded4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lJxbJnnzPUrZBStaf6lP3Q7eGsSu7Qar\";}'
+    'PHPSESSID' => '440b6f30f067c17b7b4a68d21bb2297b'
+    '_identity' => '8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"wq6FlOY1ZsioNc2FGU01PubMORGIuf5X\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/kds-dev/frontend/web/index.php?r=kawasan%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ms;q=0.6,id;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a4b4cd956b697b75aca681c1e4fc0239dd805af3756198e13143886df621ded4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lJxbJnnzPUrZBStaf6lP3Q7eGsSu7Qar%22%3B%7D; PHPSESSID=440b6f30f067c17b7b4a68d21bb2297b; _identity=8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22wq6FlOY1ZsioNc2FGU01PubMORGIuf5X%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/kds-dev/frontend/web/index.php'
+    'REMOTE_PORT' => '54047'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=kawasan%2Fstate&id=12'
+    'REQUEST_URI' => '/kds-dev/frontend/web/index.php?r=kawasan%2Fstate&id=12'
+    'SCRIPT_NAME' => '/kds-dev/frontend/web/index.php'
+    'PHP_SELF' => '/kds-dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455524328.65
+    'REQUEST_TIME' => 1455524328
+    'argv' => [
+        0 => 'r=kawasan%2Fstate&id=12'
+    ]
+    'argc' => 1
+]
+2016-02-15 16:48:06 [::1][1][becf5c0c46345abc13d89deaf5d1d963][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: count_profil' in /Applications/MAMP/htdocs/kds-dev/frontend/views/kawasan/state.php:65
+Stack trace:
+#0 /Applications/MAMP/htdocs/kds-dev/frontend/views/kawasan/state.php(65): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 65, Array)
+#1 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/View.php(325): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Applications/M...', Array, Object(frontend\controllers\KawasanController))
+#4 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/Controller.php(377): yii\base\View->render('state', Array, Object(frontend\controllers\KawasanController))
+#5 /Applications/MAMP/htdocs/kds-dev/frontend/controllers/KawasanController.php(62): yii\base\Controller->render('state', Array)
+#6 [internal function]: frontend\controllers\KawasanController->actionState('22')
+#7 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('state', Array)
+#10 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('kawasan/state', Array)
+#11 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /Applications/MAMP/htdocs/kds-dev/frontend/web/index.php(18): yii\base\Application->run()
+#13 {main}
+2016-02-15 16:48:05 [::1][1][becf5c0c46345abc13d89deaf5d1d963][info][application] $_GET = [
+    'r' => 'kawasan/state'
+    'id' => '22'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'becf5c0c46345abc13d89deaf5d1d963'
+    '_csrf' => 'ccf7a2190dba9e80b2db06643758e435145b0202b852d8e44965a6ca68980d07a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ej_yfqujqYdAn9OF1xxa6Lh37EbJt1qm\";}'
+    '_identity' => '8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"wq6FlOY1ZsioNc2FGU01PubMORGIuf5X\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/kds-dev/frontend/web/index.php?r=kawasan%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ms;q=0.6,id;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=becf5c0c46345abc13d89deaf5d1d963; _csrf=ccf7a2190dba9e80b2db06643758e435145b0202b852d8e44965a6ca68980d07a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ej_yfqujqYdAn9OF1xxa6Lh37EbJt1qm%22%3B%7D; _identity=8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22wq6FlOY1ZsioNc2FGU01PubMORGIuf5X%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/kds-dev/frontend/web/index.php'
+    'REMOTE_PORT' => '58856'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=kawasan%2Fstate&id=22'
+    'REQUEST_URI' => '/kds-dev/frontend/web/index.php?r=kawasan%2Fstate&id=22'
+    'SCRIPT_NAME' => '/kds-dev/frontend/web/index.php'
+    'PHP_SELF' => '/kds-dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455526085.86
+    'REQUEST_TIME' => 1455526085
+    'argv' => [
+        0 => 'r=kawasan%2Fstate&id=22'
+    ]
+    'argc' => 1
+]
+2016-02-15 16:50:36 [::1][1][becf5c0c46345abc13d89deaf5d1d963][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: state_id_get' in /Applications/MAMP/htdocs/kds-dev/frontend/controllers/KawasanController.php:51
+Stack trace:
+#0 /Applications/MAMP/htdocs/kds-dev/frontend/controllers/KawasanController.php(51): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 51, Array)
+#1 [internal function]: frontend\controllers\KawasanController->actionState('22')
+#2 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('state', Array)
+#5 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('kawasan/state', Array)
+#6 /Applications/MAMP/htdocs/kds-dev/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/kds-dev/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-02-15 16:50:36 [::1][1][becf5c0c46345abc13d89deaf5d1d963][info][application] $_GET = [
+    'r' => 'kawasan/state'
+    'id' => '22'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'becf5c0c46345abc13d89deaf5d1d963'
+    '_csrf' => 'ccf7a2190dba9e80b2db06643758e435145b0202b852d8e44965a6ca68980d07a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ej_yfqujqYdAn9OF1xxa6Lh37EbJt1qm\";}'
+    '_identity' => '8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"wq6FlOY1ZsioNc2FGU01PubMORGIuf5X\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/kds-dev/frontend/web/index.php?r=kawasan%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ms;q=0.6,id;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=becf5c0c46345abc13d89deaf5d1d963; _csrf=ccf7a2190dba9e80b2db06643758e435145b0202b852d8e44965a6ca68980d07a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ej_yfqujqYdAn9OF1xxa6Lh37EbJt1qm%22%3B%7D; _identity=8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22wq6FlOY1ZsioNc2FGU01PubMORGIuf5X%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/kds-dev/frontend/web/index.php'
+    'REMOTE_PORT' => '60626'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=kawasan%2Fstate&id=22'
+    'REQUEST_URI' => '/kds-dev/frontend/web/index.php?r=kawasan%2Fstate&id=22'
+    'SCRIPT_NAME' => '/kds-dev/frontend/web/index.php'
+    'PHP_SELF' => '/kds-dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455526236
+    'REQUEST_TIME' => 1455526236
+    'argv' => [
+        0 => 'r=kawasan%2Fstate&id=22'
+    ]
+    'argc' => 1
+]
