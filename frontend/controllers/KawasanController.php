@@ -50,6 +50,13 @@ class KawasanController extends Controller
         $count_profil_sah = DailyCount::find()->where(['state_id'=>$id])->one();
         $count_sukarelawan = Volunteer::find()->where(['state_id' => $id])->count();
 
+        $connection = \Yii::$app->db;
+        $count_demographic = $connection->createCommand('SELECT info_demographic.kemudahan_id,SUM(info_demographic.bilangan) AS jumlah FROM demographic 
+            RIGHT JOIN info_demographic ON demographic.demographic_id = info_demographic.demographic_id 
+            WHERE demographic.state_id = '.$id.' GROUP BY info_demographic.kemudahan_id');
+        $count_demographic = $count_demographic->queryAll();
+
+
     	return $this->render('state',[
     		'count_bahagian' => $count_bahagian,
     		'count_district' => $count_district,
@@ -60,6 +67,7 @@ class KawasanController extends Controller
             'count_isu' => $count_isu,
             'count_profil_sah' => $count_profil_sah,
             'count_sukarelawan' => $count_sukarelawan,
+            'count_demographic' => $count_demographic,
 
     	]);
     }
