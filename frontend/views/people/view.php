@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Html;
-
+use yii\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $searchModel common\models\PeopleSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
@@ -107,37 +107,144 @@ $this->title = 'Profil';
                                         <div class="tab-content">
                                             <!-- PERSONAL INFO TAB -->
                                             <div class="tab-pane active">
-                                               
-                                                    <div class="form-group">
-                                                        <label class="control-label">Alamat</label>
-                                                        <br>
-                                                        <b><?= $model->address ?></b>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="control-label">Poskod</label>
-                                                        <br>
-                                                        <b><?= $model->postcode ?></b> </div>
-                                                    <div class="form-group">
-                                                        <label class="control-label">Kawasan</label>
-                                                        <br>
-                                                        <b><?= $model->states->state ?> - <?= $model->districts->district ?> - <?= $model->kampungs->kampung ?></b>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="control-label">Lain - lain</label>
-                                                        <br>
-                                                        
-                                                            <ul>
-                                                                <li>Jantina : <b><?= $model->gender ?></b></li>
-                                                                <li>Tarik Lahir : <b><?= $model->dob ?></b></li>
-                                                                <li>Bangsa : <b><?= $model->race ?></b></li>
-                                                                <li>Agama : <b><?= $model->religion ?></b></li>
-                                                                <li>Warga Negara : <b><?= $model->citizen ?></b></li>
-                                                                <li>Status Pekerjaan : <b><?= $model->profession_status ?> - <?= $model->profession ?></b></li>
-                                                                <li>Status Perkahwinan : <b><?= $model->marital_status ?></b></li>
 
-                                                            </ul>
-                                                        
+
+                                                    <table class="table table-light">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td width="400px">Alamat</td>
+                                                                <td width="600px"><b><?= $model->address ?></b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Poskod</td>
+                                                                <td><b><?= $model->postcode ?></b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Kawasan</td>
+                                                                <td><b><?= $model->states->state ?> - <?= $model->districts->district ?> - <?= $model->kampungs->kampung ?></b></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                               
+                                                    <br>
+                                                    
+                                                    <span class="caption-subject font-blue-madison bold uppercase">Lain - lain</span>
+                                                    <br>
+                                                    <hr>
+                                                    <table class="table table-light">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td width="400px">Jantina</td>
+                                                                <td width="600px"><b><?= $model->gender ?></b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Tarikh Lahir</td>
+                                                                <td><b><?= $model->dob ?></b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Bangsa</td>
+                                                                <td><b><?= $model->race ?></b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Agama</td>
+                                                                <td><b><?= $model->religion ?></b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Warga Negara</td>
+                                                                <td><b><?= $model->citizen ?></b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Status Pekerjaan</td>
+                                                                <td><b><?= $model->profession_status ?> - <?= $model->profession ?></b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Status Perkahwinan</td>
+                                                                <td><b><?= $model->marital_status ?></b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Income / Spending</td>
+                                                                <td><b><?= $model->income ?> - <?= $model->spending?></b></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                    <div class="portlet box blue-madison">
+                                                        <div class="portlet-title">
+                                                            <div class="caption uppercase">
+                                                               Pasangan</div>
+                                                            <div class="tools">
+                                                                <a href="javascript:;" class="expand" data-original-title="" title=""> </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="portlet-body" style="display: none;">
+                                                            <table class="table table-light">
+                                                                <tbody>
+                                                                    <?php foreach ($pasangan as $key => $value) { ?>
+                                                                    <tr>
+                                                                        <td width="400px">Nama</td>
+                                                                        <td width="600px"><b><?= $value['wife_name'] ?></b></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>No Kad Pengenalan</td>
+                                                                        <td><b><?= $value['wife_ic'] ?></b></td>
+                                                                    </tr>
+                                                                    <?php } ?>
+                                                                    
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
                                                     </div>
+
+                                                    <div class="portlet box blue-madison">
+                                                        <div class="portlet-title">
+                                                            <div class="caption uppercase">
+                                                               Tangunggan</div>
+                                                            <div class="tools">
+                                                                <a href="javascript:;" class="expand" data-original-title="" title=""> </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="portlet-body" style="display: none;">
+                                                            <table class="table table-light">
+                                                                <tbody>
+                                                                    <?php foreach ($tangunggan as $key => $value) { ?>
+                                                                    <tr>
+                                                                        <td width="400px">Nama</td>
+                                                                        <td width="600px"><b><?= $value['nama_tanggungan'] ?></b></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>No Kad Pengenalan</td>
+                                                                        <td><b><?= $value['no_ic_tanggungan'] ?></b></td>
+                                                                    </tr>
+                                                                    <?php } ?>
+                                                                    
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="portlet box blue-madison">
+                                                        <div class="portlet-title">
+                                                            <div class="caption uppercase">
+                                                               Maklumat Tambahan</div>
+                                                            <div class="tools">
+                                                                <a href="javascript:;" class="expand" data-original-title="" title=""> </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="portlet-body" style="display: none;">
+                                                            <?= GridView::widget([
+                                                                'dataProvider' => $answer,
+
+                                                                'columns' => [
+                                                                    ['class' => 'yii\grid\SerialColumn'],
+                                          
+                                                                    'answer',
+
+                                                                ],
+                                                            ]); ?>
+                                                        </div>
+                                                    </div>
+                                                  
         
                                             </div>
                                             <!-- END PERSONAL INFO TAB -->

@@ -1098,3 +1098,230 @@ $_SERVER = [
     ]
     'argc' => 1
 ]
+2016-02-16 09:58:27 [::1][1][3319db690b55f493d6c40b13ab371f42][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Wife' not found' in /Applications/MAMP/htdocs/kds-dev/frontend/controllers/PeopleController.php:49
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-16 09:58:27 [::1][1][3319db690b55f493d6c40b13ab371f42][info][application] $_GET = [
+    'r' => 'people/view'
+    'id' => '5'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '3319db690b55f493d6c40b13ab371f42'
+    '_csrf' => '5ee01b1507ce94b3bbbbba2342af184519f84cbe810417c0d6a625cab2808388a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"dRYyFn-1v2SihYSzskebNJs_az5qapSe\";}'
+    '_identity' => '8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"wq6FlOY1ZsioNc2FGU01PubMORGIuf5X\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/kds-dev/frontend/web/index.php?r=people%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ms;q=0.6,id;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=3319db690b55f493d6c40b13ab371f42; _csrf=5ee01b1507ce94b3bbbbba2342af184519f84cbe810417c0d6a625cab2808388a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dRYyFn-1v2SihYSzskebNJs_az5qapSe%22%3B%7D; _identity=8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22wq6FlOY1ZsioNc2FGU01PubMORGIuf5X%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/kds-dev/frontend/web/index.php'
+    'REMOTE_PORT' => '56038'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fview&id=5'
+    'REQUEST_URI' => '/kds-dev/frontend/web/index.php?r=people%2Fview&id=5'
+    'SCRIPT_NAME' => '/kds-dev/frontend/web/index.php'
+    'PHP_SELF' => '/kds-dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455587907.39
+    'REQUEST_TIME' => 1455587907
+    'argv' => [
+        0 => 'r=people%2Fview&id=5'
+    ]
+    'argc' => 1
+]
+2016-02-16 10:30:40 [::1][1][6ccb088f5c3f22e1b1c33271d1b598ed][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\ActiveDataProvider' not found' in /Applications/MAMP/htdocs/kds-dev/frontend/controllers/PeopleController.php:54
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-16 10:30:40 [::1][1][6ccb088f5c3f22e1b1c33271d1b598ed][info][application] $_GET = [
+    'r' => 'people/view'
+    'id' => '13'
+    '_pjax' => '#w1'
+]
+
+$_COOKIE = [
+    '_csrf' => '5ee01b1507ce94b3bbbbba2342af184519f84cbe810417c0d6a625cab2808388a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"dRYyFn-1v2SihYSzskebNJs_az5qapSe\";}'
+    'PHPSESSID' => '6ccb088f5c3f22e1b1c33271d1b598ed'
+    '_identity' => '8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"wq6FlOY1ZsioNc2FGU01PubMORGIuf5X\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'Vk5HTi5HTGgyHB43aClhWSB8FCdGHh8SJSUiLGANPzc3NHI/TzcfDQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#w1'
+    'HTTP_REFERER' => 'http://localhost/kds-dev/frontend/web/index.php?r=people%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ms;q=0.6,id;q=0.4'
+    'HTTP_COOKIE' => '_csrf=5ee01b1507ce94b3bbbbba2342af184519f84cbe810417c0d6a625cab2808388a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dRYyFn-1v2SihYSzskebNJs_az5qapSe%22%3B%7D; PHPSESSID=6ccb088f5c3f22e1b1c33271d1b598ed; _identity=8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22wq6FlOY1ZsioNc2FGU01PubMORGIuf5X%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/kds-dev/frontend/web/index.php'
+    'REMOTE_PORT' => '62707'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fview&id=13&_pjax=%23w1'
+    'REQUEST_URI' => '/kds-dev/frontend/web/index.php?r=people%2Fview&id=13&_pjax=%23w1'
+    'SCRIPT_NAME' => '/kds-dev/frontend/web/index.php'
+    'PHP_SELF' => '/kds-dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455589840.09
+    'REQUEST_TIME' => 1455589840
+    'argv' => [
+        0 => 'r=people%2Fview&id=13&_pjax=%23w1'
+    ]
+    'argc' => 1
+]
+2016-02-16 10:30:41 [::1][1][6ccb088f5c3f22e1b1c33271d1b598ed][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\ActiveDataProvider' not found' in /Applications/MAMP/htdocs/kds-dev/frontend/controllers/PeopleController.php:54
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-16 10:30:40 [::1][1][6ccb088f5c3f22e1b1c33271d1b598ed][info][application] $_GET = [
+    'r' => 'people/view'
+    'id' => '13'
+]
+
+$_COOKIE = [
+    '_csrf' => '5ee01b1507ce94b3bbbbba2342af184519f84cbe810417c0d6a625cab2808388a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"dRYyFn-1v2SihYSzskebNJs_az5qapSe\";}'
+    'PHPSESSID' => '6ccb088f5c3f22e1b1c33271d1b598ed'
+    '_identity' => '8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"wq6FlOY1ZsioNc2FGU01PubMORGIuf5X\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/kds-dev/frontend/web/index.php?r=people%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ms;q=0.6,id;q=0.4'
+    'HTTP_COOKIE' => '_csrf=5ee01b1507ce94b3bbbbba2342af184519f84cbe810417c0d6a625cab2808388a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dRYyFn-1v2SihYSzskebNJs_az5qapSe%22%3B%7D; PHPSESSID=6ccb088f5c3f22e1b1c33271d1b598ed; _identity=8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22wq6FlOY1ZsioNc2FGU01PubMORGIuf5X%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/kds-dev/frontend/web/index.php'
+    'REMOTE_PORT' => '62784'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fview&id=13'
+    'REQUEST_URI' => '/kds-dev/frontend/web/index.php?r=people%2Fview&id=13'
+    'SCRIPT_NAME' => '/kds-dev/frontend/web/index.php'
+    'PHP_SELF' => '/kds-dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455589840.48
+    'REQUEST_TIME' => 1455589840
+    'argv' => [
+        0 => 'r=people%2Fview&id=13'
+    ]
+    'argc' => 1
+]
+2016-02-16 10:31:25 [::1][1][6ccb088f5c3f22e1b1c33271d1b598ed][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'GridView' not found' in /Applications/MAMP/htdocs/kds-dev/frontend/views/people/view.php:235
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-16 10:31:25 [::1][1][6ccb088f5c3f22e1b1c33271d1b598ed][info][application] $_GET = [
+    'r' => 'people/view'
+    'id' => '13'
+]
+
+$_COOKIE = [
+    '_csrf' => '5ee01b1507ce94b3bbbbba2342af184519f84cbe810417c0d6a625cab2808388a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"dRYyFn-1v2SihYSzskebNJs_az5qapSe\";}'
+    'PHPSESSID' => '6ccb088f5c3f22e1b1c33271d1b598ed'
+    '_identity' => '8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"wq6FlOY1ZsioNc2FGU01PubMORGIuf5X\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/kds-dev/frontend/web/index.php?r=people%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ms;q=0.6,id;q=0.4'
+    'HTTP_COOKIE' => '_csrf=5ee01b1507ce94b3bbbbba2342af184519f84cbe810417c0d6a625cab2808388a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dRYyFn-1v2SihYSzskebNJs_az5qapSe%22%3B%7D; PHPSESSID=6ccb088f5c3f22e1b1c33271d1b598ed; _identity=8a451bef1c9e79c505c8a45002b0b9f99ee14281727922c7c18d00cc62a83cdfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22wq6FlOY1ZsioNc2FGU01PubMORGIuf5X%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/kds-dev/frontend/web/index.php'
+    'REMOTE_PORT' => '63314'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fview&id=13'
+    'REQUEST_URI' => '/kds-dev/frontend/web/index.php?r=people%2Fview&id=13'
+    'SCRIPT_NAME' => '/kds-dev/frontend/web/index.php'
+    'PHP_SELF' => '/kds-dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455589885.61
+    'REQUEST_TIME' => 1455589885
+    'argv' => [
+        0 => 'r=people%2Fview&id=13'
+    ]
+    'argc' => 1
+]

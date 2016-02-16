@@ -286,8 +286,8 @@ $this->title = 'Ringkasan Bagi :';
 										<table class="table table-light">
 										    <tbody>
 										    	<tr>
-										            <td>Kedai Runcit</td>
-										            <td><b><?= $kedai_Runcit ?></b></td>
+										            <td width="200px">Kedai Runcit</td>
+										            <td width="50px"><b><?= $kedai_Runcit ?></b></td>
 										        </tr>
 										    	<tr>
 										            <td>Kedai Makan</td>
@@ -322,8 +322,8 @@ $this->title = 'Ringkasan Bagi :';
 										<table class="table table-light">
 										    <tbody>
 										    	<tr>
-										            <td>Balai Raya</td>
-										            <td><b><?= $balairaya ?></b></td>
+										            <td width="200px">Balai Raya</td>
+										            <td width="50px"><b><?= $balairaya ?></b></td>
 										        </tr>
 										    	<tr>
 										            <td>Dewan Orang Ramai</td>
@@ -371,8 +371,8 @@ $this->title = 'Ringkasan Bagi :';
 										<table class="table table-light">
 										    <tbody>
 										        <tr>
-										            <td>Tadika Kemas</td>
-										            <td><b><?= $tadika_Kemas ?></b></td>
+										            <td width="200px">Tadika Kemas</td>
+										            <td width="50px"><b><?= $tadika_Kemas ?></b></td>
 										        </tr>
 										        <tr>
 										            <td>Tadika Swasta</td>
@@ -412,8 +412,8 @@ $this->title = 'Ringkasan Bagi :';
 										<table class="table table-light">
 										    <tbody>
 										        <tr>
-										            <td>Surau</td>
-										            <td><b><?= $surau ?></b></td>
+										            <td width="200px">Surau</td>
+										            <td width="50px"><b><?= $surau ?></b></td>
 										        </tr>
 										        <tr>
 										            <td>Masjid</td>
@@ -443,16 +443,26 @@ $this->title = 'Ringkasan Bagi :';
 										<table class="table table-light">
 										    <tbody>
 										        <tr>
-										            <td>Padang Bola</td>
-										            <td><b><?= $padang_Bola ?></b></td>
+										            <td width="200px">Padang Bola</td>
+										            <td width="50px"><b><?= $padang_Bola ?></b></td>
 										        </tr>
 										        <tr>
 										            <td>Homestay</td>
 										            <td><b><?= $homestay ?></b></td>
 										        </tr>
+
+
+										    </tbody>
+										</table>
+						 			</div>
+
+						 			<div class="col-md-6">
+								 		<span class="caption-subject font-blue-chambray uppercase">&nbsp;</span>
+										<table class="table table-light">
+										    <tbody>
 										        <tr>
-										            <td>Taman Permainan Kanak - Kanak</td>
-										            <td><b><?= $taman_Permainan ?></b></td>
+										            <td width="200px">Taman Permainan Kanak - Kanak</td>
+										            <td width="50px"><b><?= $taman_Permainan ?></b></td>
 										        </tr>
 										        <tr>
 										            <td>Gelanggang</td>

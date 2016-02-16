@@ -5,9 +5,13 @@ namespace frontend\controllers;
 use Yii;
 use frontend\models\People;
 use frontend\models\PeopleSearch;
+use common\models\Wife;
+use common\models\Tanggungan;
+use common\models\Answer;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\data\ActiveDataProvider;
 
 /**
  * PeopleController implements the CRUD actions for People model.
@@ -46,8 +50,18 @@ class PeopleController extends Controller
      */
     public function actionView($id)
     {
+        $pasangan = Wife::find()->where(['people_id'=>$id])->all();
+        $tangunggan = Tanggungan::find()->where(['people_id'=>$id])->all();
+        $answer = new ActiveDataProvider([
+            'query' => Answer::find()->where(['people_id'=>$id]),
+            'pagination' => ['pageSize'=>52],
+        ]);
+
         return $this->render('view', [
             'model' => $this->findModel($id),
+            'pasangan' => $pasangan,
+            'tangunggan' => $tangunggan,
+            'answer' => $answer,
         ]);
     }
 
